@@ -56,20 +56,31 @@ navbar {
   top: 0;
   width: 100%;
   background: white;
+  z-index: 9999;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+  font-size: 120%;
 }
 #textlink {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 3%;
+  width: 45%;
+
 }
 #textlink a {
   color: black;
   text-decoration: none;
-  padding: 0 5% 0 5%;
+  padding: 0;
+  white-space: nowrap;
 }
 #textlink a:hover {
   text-decoration: underline;
+}
+#textlink img {
+  width: 40%;
+  height: auto;
+  padding: 0;
 }
 
 .content {
